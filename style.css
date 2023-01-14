@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(243, 195, 164) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    
+}
+
+h3{
+    font-size: 25px;
+}
+
+#result{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    gap: 30px;
+    
+   
+}
+
+.order{
+        box-shadow: 2px 3px 6px rgb(229, 52, 52) ;
+        padding: 15px;
+        border-radius: 12px;
+        
+} 
+img{
+    width: 300px;
+}
